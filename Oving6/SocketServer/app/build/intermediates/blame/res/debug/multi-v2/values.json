@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/stian/skule/5.semester/android/SocketServer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/stian/skule/5.semester/android/SocketServer/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "118,55",
+                        "endColumns": "49,62",
+                        "endOffsets": "163,113"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,105",
+                        "endColumns": "49,62",
+                        "endOffsets": "100,163"
+                    }
+                }
+            ]
+        }
+    ]
+}

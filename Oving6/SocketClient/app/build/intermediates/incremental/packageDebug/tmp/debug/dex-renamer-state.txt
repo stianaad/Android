@@ -1,0 +1,4 @@
+#Mon Sep 16 16:19:50 CEST 2019
+base.0=/Users/stian/skule/5.semester/android/SocketClient/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

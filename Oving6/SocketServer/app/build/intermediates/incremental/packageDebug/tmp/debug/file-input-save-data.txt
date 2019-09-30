@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Sep 16 15:09:39 CEST 2019
+0.baseType=DIRECTORY
+0.base=/Users/stian/skule/5.semester/android/SocketServer/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
