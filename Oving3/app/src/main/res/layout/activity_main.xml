@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:paddingTop="30dp"
+        android:id="@+id/linearLayout1">
+    <EditText
+        android:id="@+id/navn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Navn"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/fodselsdato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Fødselsdato- dd:mm:yy"
+        android:inputType="text"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/leggTil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Legg til"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClick1"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/linearLayout1"
+        android:layout_above="@id/avslutt">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Venneliste:"
+            android:textSize="30dp"
+            android:gravity="center"/>
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="200dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/avslutt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:text="Avslutt"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick1"
+        />
+
+</RelativeLayout>

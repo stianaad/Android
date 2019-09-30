@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Oving4</string>
+    <string name="dyr1">Elefant</string>
+    <string name="dyr2">Giraff</string>
+    <string name="dyr3">Løve</string>
+    <string-array name="bildenavn">
+        <item >@string/dyr1</item>
+        <item >@string/dyr2</item>
+        <item>@string/dyr3</item>
+    </string-array>
+    <string-array name="beskrivelse">
+        <item >Dette er eit bilde av ein elefant.</item>
+        <item >Dette er eit bilde av ein Sjiraff</item>
+        <item >Dette er eit bilde av ei løve</item>
+    </string-array>
+    <array name="bilder">
+        <item>@drawable/dyr1 </item>
+        <item>@drawable/dyr2</item>
+        <item>@drawable/dyr3</item>
+    </array>
+</resources>
