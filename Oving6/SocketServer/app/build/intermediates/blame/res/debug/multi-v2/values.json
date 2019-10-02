@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/stian/skule/5.semester/android/SocketServer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/stian/AndroidStudioProjects/Oving6/SocketServer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/stian/skule/5.semester/android/SocketServer/app/src/main/res/values/strings.xml",
+                    "source": "/Users/stian/AndroidStudioProjects/Oving6/SocketServer/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "3,2",
                         "startColumns": "4,4",
