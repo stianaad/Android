@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="1000dp"
+    android:layout_height="1000dp"
+    android:background="#D3D3D3"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newGame"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/overskrift"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/newGame"
+        android:layout_below="@+id/overskrift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newGame"/>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/overskrift"
+        android:layout_alignParentRight="true"
+        android:text="@string/finish" />
+</RelativeLayout>

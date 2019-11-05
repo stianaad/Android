@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tetris</string>
+    <string name="menu_settings">Settings</string>
+    <string name="finish">Avslutt</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Gjennoppta</string>
+    <string name="left">Venstre</string>
+    <string name="right">Høyre</string>
+    <string name="hjelp">Hjelp</string>
+    <string name="startNytt">Start nytt spill</string>
+    <string name="rotate">Klikk her for å rotere figuren</string>
+    <string name="changeLanguage">Skift språk</string>
+    <string name="headerHelp">Hvordan tetris fungerer:</string>
+    <string name="popupInformation">Ulike figurer faller fra ”taket” (øverst på skjermen), en om gangen. Mens den faller, kan spilleren rotere den (90 grader for hver gang) og/eller flytte den horisontalt. Når figuren har kommet ned til ”golvet” (nederst på skjermen) eller støter på en annen figur, stopper den og blir stående i denne posisjonen, og en ny figur kommer fallende. Vitsen med spillet er at spilleren skal styre figurene slik at rommet fylles opp mest mulig uten hull. Hvordan styre brikkene: trykk på venstre del av skjermen: flytter brikken til venstre. Høyre del av skjermen: flytter til høyre. Når du trykker under den gule streken vil du rotere brikkene mot klokken</string>
+    <string name="closePopup">Lukk</string>
+    <string name="change">Endre</string>
+    <string name="newGame">Nytt spill</string>
+    <string name="gameOver">Du tape. Klikk på menyen for å starte nytt spill</string>
+</resources>
